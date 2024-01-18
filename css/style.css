@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(140deg, #48355c, #8d6cb3) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+#quiz{
+    background: rgb(36, 43, 83);
+    border-radius: 10px;
+    box-shadow: 2px 2px 13px 3px #e6d6d6, inset 2px 2px 10px 5px #b89ea8;
+}
+.question{
+    padding: 25px 40px;
+    font-weight: 500;
+}
+ul{
+    padding: 15px 200px 15px 20px;
+}
+ul li{
+    padding: 10px 50px 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    margin: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.button{
+    padding: 15px 15px 20px 40px;
+}
+.button button{
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: 1px solid #38b438;
+    outline: none;
+    background: #38b448;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.result{
+    padding: 40px;
+}
+.result h2{
+    padding: 10px 0;
+}
+.result p{
+    padding: 0 0 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+.reload-btn{
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.reload-button{
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: 1px solid #38b438;
+    outline: none;
+    background: #38b448;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
